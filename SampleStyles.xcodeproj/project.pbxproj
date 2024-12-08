@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8115FAAA2CCCB18C000817BD /* rawText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115FAA92CCCB18C000817BD /* rawText.swift */; };
 		81C7CBE42CBCAF6900E3B050 /* SampleStylesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C7CBE32CBCAF6900E3B050 /* SampleStylesApp.swift */; };
 		81C7CBE62CBCAF6900E3B050 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C7CBE52CBCAF6900E3B050 /* ContentView.swift */; };
 		81C7CBE82CBCAF6A00E3B050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81C7CBE72CBCAF6A00E3B050 /* Assets.xcassets */; };
@@ -14,8 +15,6 @@
 		81C7CBF52CBCAF6A00E3B050 /* SampleStylesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C7CBF42CBCAF6A00E3B050 /* SampleStylesTests.swift */; };
 		81C7CBFF2CBCAF6A00E3B050 /* SampleStylesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C7CBFE2CBCAF6A00E3B050 /* SampleStylesUITests.swift */; };
 		81C7CC012CBCAF6A00E3B050 /* SampleStylesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C7CC002CBCAF6A00E3B050 /* SampleStylesUITestsLaunchTests.swift */; };
-		81C7CC0E2CBCAFA200E3B050 /* ScrollFiexd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C7CC0D2CBCAFA200E3B050 /* ScrollFiexd.swift */; };
-		81C7CC102CBCB0C300E3B050 /* Charts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C7CC0F2CBCB0C300E3B050 /* Charts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8115FAA92CCCB18C000817BD /* rawText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rawText.swift; sourceTree = "<group>"; };
 		81C7CBE02CBCAF6900E3B050 /* SampleStyles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleStyles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C7CBE32CBCAF6900E3B050 /* SampleStylesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleStylesApp.swift; sourceTree = "<group>"; };
 		81C7CBE52CBCAF6900E3B050 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,9 +46,14 @@
 		81C7CBFA2CBCAF6A00E3B050 /* SampleStylesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleStylesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81C7CBFE2CBCAF6A00E3B050 /* SampleStylesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleStylesUITests.swift; sourceTree = "<group>"; };
 		81C7CC002CBCAF6A00E3B050 /* SampleStylesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleStylesUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		81C7CC0D2CBCAFA200E3B050 /* ScrollFiexd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollFiexd.swift; sourceTree = "<group>"; };
-		81C7CC0F2CBCB0C300E3B050 /* Charts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8115FAA02CCCAFCD000817BD /* ScrollFiexd */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ScrollFiexd; sourceTree = "<group>"; };
+		8115FAA12CCCAFDF000817BD /* Charts */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Charts; sourceTree = "<group>"; };
+		8115FAA22CCCAFEF000817BD /* Dialog */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Dialog; sourceTree = "<group>"; };
+		81F374212D05795300F4907A /* SegmentedControl */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SegmentedControl; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		81C7CBDD2CBCAF6900E3B050 /* Frameworks */ = {
@@ -98,12 +103,15 @@
 		81C7CBE22CBCAF6900E3B050 /* SampleStyles */ = {
 			isa = PBXGroup;
 			children = (
+				81F374212D05795300F4907A /* SegmentedControl */,
+				8115FAA22CCCAFEF000817BD /* Dialog */,
+				8115FAA12CCCAFDF000817BD /* Charts */,
+				8115FAA02CCCAFCD000817BD /* ScrollFiexd */,
 				81C7CBE32CBCAF6900E3B050 /* SampleStylesApp.swift */,
 				81C7CBE52CBCAF6900E3B050 /* ContentView.swift */,
-				81C7CC0F2CBCB0C300E3B050 /* Charts.swift */,
-				81C7CC0D2CBCAFA200E3B050 /* ScrollFiexd.swift */,
 				81C7CBE72CBCAF6A00E3B050 /* Assets.xcassets */,
 				81C7CBE92CBCAF6A00E3B050 /* Preview Content */,
+				8115FAA92CCCB18C000817BD /* rawText.swift */,
 			);
 			path = SampleStyles;
 			sourceTree = "<group>";
@@ -147,6 +155,12 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8115FAA02CCCAFCD000817BD /* ScrollFiexd */,
+				8115FAA12CCCAFDF000817BD /* Charts */,
+				8115FAA22CCCAFEF000817BD /* Dialog */,
+				81F374212D05795300F4907A /* SegmentedControl */,
 			);
 			name = SampleStyles;
 			productName = SampleStyles;
@@ -263,9 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81C7CC102CBCB0C300E3B050 /* Charts.swift in Sources */,
-				81C7CC0E2CBCAFA200E3B050 /* ScrollFiexd.swift in Sources */,
 				81C7CBE62CBCAF6900E3B050 /* ContentView.swift in Sources */,
+				8115FAAA2CCCB18C000817BD /* rawText.swift in Sources */,
 				81C7CBE42CBCAF6900E3B050 /* SampleStylesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
